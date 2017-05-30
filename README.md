@@ -11,6 +11,14 @@ In order to deploy the example-webapp, you'll need the following:
 
 Once you have these available, you can run the application binary, and it will run a HTTP server.
 
+```bash
+./example-webapp                                                                                                                  2.3.1    ✓  go1.8
+2017/05/30 19:27:00 No config file found, using defaults:  Unsupported Config Type ""
+[negroni] listening on :3000
+```
+
+The application listens on port `3000`
+
 # Configuration
 
 The example webapp connects to [Redis](https://redis.io/) to store its data.
